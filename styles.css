@@ -1,0 +1,42 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    padding: 10px 100px;
+}
+
+.header nav {
+    margin-bottom: 50px;
+}
+
+.header nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    column-gap: 10px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#navigation-home {
+    margin-left: auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .hero-image {
+    padding: 16px;
+    width: 500px;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
