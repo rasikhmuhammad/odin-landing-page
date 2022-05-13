@@ -78,3 +78,29 @@ body {
     border-radius: 6px;
 }
 
+.testimonial {
+    padding: 50px;
+}
+
+.testimonial figure {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.testimonial figcaption {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 60px;  
+}
+
+.call-to-action {
+    box-sizing: border-box;
+    width: 860px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
