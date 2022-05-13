@@ -2,6 +2,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.content {
+    flex-grow: 1;
+}
+
 .header {
     padding: 10px 100px;
 }
@@ -40,3 +50,4 @@
     justify-content: center;
     color: white;
 }
+
