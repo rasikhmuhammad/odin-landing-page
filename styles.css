@@ -1,12 +1,15 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 body {
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
+    padding: 0px;
+    margin: 0px;
 }
+
 
 .content {
     flex-grow: 1;
@@ -14,6 +17,9 @@ body {
 
 .header {
     padding: 10px 100px;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 60px;   
 }
 
 .header nav {
@@ -51,8 +57,15 @@ body {
     color: white;
 }
 
+.projects-slideshow {
+    padding: 10px 10px 50px 10px;
+}
+
 .projects-slideshow h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .project-cards {
@@ -80,6 +93,12 @@ body {
 
 .testimonial {
     padding: 50px;
+    background-color: #e5e7eb;
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 80px;
 }
 
 .testimonial figure {
@@ -92,21 +111,63 @@ body {
 .testimonial figcaption {
     display: flex;
     justify-content: flex-end; 
-    margin-right: 60px;  
+    margin-right: 60px;
+    font-size: 18px;  
+    font-weight: 700;
 }
 
 .call-to-action {
+    background: #3882f6;
+    color: white;
+    border-radius: 8px;
     box-sizing: border-box;
     width: 860px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     display: flex;
     justify-content: center;
     column-gap: 30px;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e5e7eb;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;   
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+}
+
+.call-to-action button {
+    border: solid 2px white;
 }
