@@ -51,3 +51,30 @@ body {
     color: white;
 }
 
+.projects-slideshow h2 {
+    text-align: center;
+}
+
+.project-cards {
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-card {
+    max-width: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card img {
+    border: solid 2px rgb(152, 152, 236);
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 6px;
+}
+
