@@ -144,7 +144,7 @@ body {
     align-items: center;
     background: #3882f6;
     color: white;
-    padding: 5px 50px 5px 150px;
+    padding: 30px 100px 30px 100px;
     border-radius: 4px;
     box-sizing: border-box;
     margin: 20px auto;
@@ -152,9 +152,14 @@ body {
 }
 
 #call-to-action-heading {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
+}
+
+.call-to-action p{
+    margin: 0px;
+    padding: 0px;  
 }
 
 .footer {
